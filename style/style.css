@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainsection{
+    /* width: 100%; */
+}
+.head{
+    width: 100%;
+    height: 13vh;
+    background-color:rgb(35, 144, 180);
+}
+.flex{
+    display: flex; 
+}
+
+input{
+    margin: 30px  20px 0px 300px;
+    width: 70%;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+}
+.speak{
+    position: absolute;
+    right: 700px;
+    top: 35px;
+    font-size: 40px;
+    color: rgb(25, 89, 110);
+}
+.btn{
+    padding: 20px;
+    margin: 30px;
+    /* width: 30%; */
+    /* float: right; */
+    display: flex;
+    margin-left: 350px;
+}
+ .button{
+     border-radius: 5px;
+    margin: 10px;
+    padding: 15px  30px;
+    background-color: beige;
+    color:rgb(22, 102, 129);
+}
+.reg{
+    border: cadetblue;
+    color: wheat;
+    background-color: lightblue;
+    border: solid 2px rgb(243, 236, 223);
+    font-weight: bold;
+}
+.navbar{
+  margin-top: 0%;
+margin-left:350px;
+}
+.nav {
+  margin-top: 0%;
+  padding-top:0% ;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .nav > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+/*  */
+.bg{
+    /* width: 100%; */
+    margin-top: 140px;
+    height: 70vh;
+    background-image: url(/assest/img/bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+}
+.card{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+     margin-left:  160px;
+}
+  
+  .flex-container > div {
+    /* box-shadow: 2px 2px 5px #888; */
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 20px;
+  }
+  .modle{
+    margin: 17px;
+    padding: 2px;
+text-align: justify;
+  }
+  .price{
+    margin: 10px;
+    font-weight: bolder;
+    text-align: justify;
+  }
+  .heading{
+    font-size: 25px;
+    margin: 20px;
+    color: gray;
+    padding-left: 180px;
+  }
+  .flex-btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:  160px;
+  }
+  
+  .flex-btn > div {
+    background-color: rgb(233, 233, 24);
+    width: 300px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 10px;
+    height: 8vh;
+    /* line-height: 75px; */
+    font-size: 30px;
+    
+  }
+  .flex-btn  button{
+    background-color: rgb(233, 233, 24);
+    border: none;
+    text-align: center;
+    margin-top: 22px;
+  }
+  
+  .brands {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    margin-left:  160px;
+  }
+  
+  .brands > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin-top: 20px;
+    /* margin: 10px; */
+  }
+  .realme{
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+  }
+  .footer{
+    width: 105%;
+    height: 70vh;
+    color:white;
+    position: relative;
+    bottom: 0px;
+    background-color: rgb(35, 144, 180);
+    margin-bottom: 0%;
+  }
+  .main{
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin-left:  160px;
+
+    
+  }
+  .main >div{
+    width: 200px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 5vh;
+    /* padding:  50px; */
+    margin: 100px;
+    color: #f1f1f1;
+  }
+  li{
+    /* line-height: 5vh; */
+    list-style-type: none;
+  }
+  .payment{
+width: 300px;
+  }
+ 
+  #ion-icon
+  {
+    margin-top: 0%;
+    width: 100%;
+    background-color: rgb(14, 158, 206);
+  }
+  .icones{
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 40px;
+  /* margin-left: 100px; */
+  color: wheat;
+  border-radius: 35px;
+  display: flex;
+  } 
+ 
+  .login{
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    width: 34%;
+    height: 70vh;
+    overflow: hidden;
+    
+    box-shadow: 3px 3px 5px #ddd2d2;
+  }
+  .login input{
+    width: 100px;
+  }
+  .singup{
+    padding: 30px;
+    line-height: 4vh;
+  }
+  #num
+  {
+    
+    width: 90%;
+    margin: 10px;
+    border: solid 1px gray;
+  
+  }
+  #input{
+    width: 90%;
+    margin: 9px;
+    font-size: 20px;
+    background-color: rgb(16, 153, 199);
+    border-radius: 15px;
+    text-align: center;
+    color:white;
+  }
+  #footer{
+    margin-top: 350px;
+  }
